@@ -1,0 +1,46 @@
+/*--------------------- STYLE FOR GENERAL TITLE --------------------*/
+.general__title-block {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.general__back-title,
+.general__front-title {
+    margin: 0;
+}
+
+.general__back-title {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: calc(36px + 2vw);
+}
+
+.general__front-title {
+    color: #02E502;
+    font-size: calc(22px + 0.5vw);
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+
+/*--------------------- STYLE FOR GENERAL TITLE END--------------------*/
+
+
+/*-------------------STYLE FOR GENERAL BUTTON -------------------*/
+.general__btn {
+    width: 100%;
+    height: 60px;
+    margin: 35px auto 0 auto;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #02E502;
+    border: 1px solid #02E502;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*-------------------STYLE FOR GENERAL BUTTON END-------------------*/
+

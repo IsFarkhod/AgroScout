@@ -134,7 +134,7 @@ header {
 /*--------------------- MAIN SECTION---------------------*/
 .main {
     width: 100%;
-    height: 100vh;
+    max-height: 100vh;
     color: #fff;
     padding: 150px 0;
     background-image: url(../assets/bgBackground.jpg);
@@ -177,3 +177,264 @@ header {
 }
 
 /*--------------------- MAIN SECTION END---------------------*/
+
+/*--------------------- ADVANTAGE SECTION---------------------*/
+
+.advantage {
+    padding: 75px 0;
+    background-color: #1E1D1D;
+}
+
+.advantage__row {
+    width: 100%;
+    height: 100%;
+    margin-top: 35px;
+    color: #fff;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.advantage__card {
+    width: 350px;
+    height: auto;
+    margin: 0 12px;
+}
+
+.advantage__card-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.advantage__card-title {
+    font-size: 18px;
+}
+
+.advantage__card-img-block {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.advantage__img {
+    width: 100%;
+    height: 100%;
+}
+
+/*--------------------- ADVANTAGE SECTION END---------------------*/
+
+/*--------------------- PRODUCTION SECTION---------------------*/
+.production {
+    padding: 75px 0;
+    color: #fff;
+    background-color: #1E1D1D;
+}
+
+.production__row {
+    width: 100%;
+    height: 100%;
+    margin-top: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.production__card {
+    max-width: 380px;
+    max-height: 629px;
+    margin: 8px 6px;
+    padding: 0 12px 32px 12px;
+    background-color: rgb(42, 41, 41)
+}
+
+.production__header-img {
+    width: 330px;
+    height: 230px;
+    margin: 0 auto;
+}
+
+.production__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.production__menu {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 40px;
+}
+
+.production__item {
+    margin: 8px 0;
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.production__card-title {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.production__card-subtitle {
+    margin-right: 8px
+}
+
+.production__price {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/*--------------------- PRODUCTION SECTION END---------------------*/
+
+/*--------------------- SERVICES SECTION ---------------------*/
+
+.services {
+    width: 100%;
+    height: 550px;
+    background-image: url(../assets/bgBackgroundbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.services__row {
+    width: 100%;
+    height: 100%;
+}
+
+.services__content {
+    max-width: 1200px;
+    height: 100%;
+    padding-left: 185px;
+    color: #fff;
+    background-color: #1e1d1dd3;
+    clip-path: polygon(100% 0, 90% 0.5%, 50% 100%, 0 100%, 0 0);
+
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services__title {
+    font-size: 42px;
+    line-height: 48px;
+}
+
+.services__subtitle {
+    margin-right: 400px;
+    font-size: 25px;
+    line-height: 54px;
+}
+
+.services__btn {
+    width: 288px;
+    height: 62px;
+    margin: 50px auto 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--------------------- SERVICES SECTION END---------------------*/
+
+/*--------------------- ABOUT COMPANY SECTION---------------------*/
+
+.about_company {
+    width: 100%;
+    height: auto;
+    padding: 75px 0;
+    color: #fff;
+    background-color: #1E1D1D;
+}
+
+.about_company__row {
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    position: relative;
+}
+
+.about_company__content {
+    width: 100%;
+    display: block;
+}
+
+.about_company__subtitle {
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.about_company__show {
+    width: 100%;
+    height: 200px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgb(35, 35, 36) 0%, rgba(50, 50, 50, 0.7038165608040091) 64%, rgba(255, 255, 255, 0) 100%);
+    z-index: 5;
+    display: block;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease;
+}
+
+.about_company--active {
+    bottom: -150px;
+}
+
+.about_company--rotate {
+    transform: rotate(180deg);
+    transition: all 0.7s ease-in-out;
+}
+
+.about_company__arrow {
+    width: 100%;
+    height: 75px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.about_company__arrow::after,
+.about_company__arrow:before {
+    content: '';
+    width: 125px;
+    height: 2px;
+    margin: 20px 25px;
+    border: 2px solid #8D8B8B;
+    background-color: #8D8B8B;
+    border-radius: 5px;
+}
+
+.about_company__img {
+    cursor: pointer;
+}
+
+/*--------------------- ABOUT COMPANY SECTION END---------------------*/
+
+/*--------------------- LOCATION SECTION---------------------*/
+.location {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #1E1D1D;
+}
+
+/*--------------------- LOCATION SECTION END---------------------*/
