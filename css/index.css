@@ -433,8 +433,245 @@ header {
 .location {
     width: 100%;
     height: 100%;
+    padding: 75px 0;
     color: #fff;
     background-color: #1E1D1D;
 }
 
+.location__row {
+    width: 100%;
+    height: 100%;
+    margin-top: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location__card-left {
+    width: 100%;
+    height: 100%;
+    padding: 0 8px;
+}
+
+.location__menu {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location__item {
+    font-size: 24px;
+    line-height: 39px;
+}
+
+.location__card-right,
+.location__img-block,
+.location__img {
+    width: 100%;
+    height: 100%;
+}
+
 /*--------------------- LOCATION SECTION END---------------------*/
+
+/*--------------------- PARTNERS SECTION---------------------*/
+
+.partners {
+    width: 100%;
+    height: 100%;
+    padding: 75px 0;
+    background-color: #1E1D1D;
+}
+
+.partners__row {
+    width: 100%;
+    height: 100%;
+    margin-top: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partners__card,
+.partners__img {
+    width: 100%;
+    height: 100%;
+}
+
+.partners__img-block {
+    max-width: 385px;
+    height: 68px;
+}
+
+/*--------------------- PARTNERS SECTION END---------------------*/
+
+
+/*--------------------- NEWS SECTION ---------------------*/
+
+.news {
+    width: 100%;
+    height: auto;
+    padding: 75px 0;
+    color: #fff;
+    background-color: #1E1D1D;
+}
+
+.news__row {
+    width: 100%;
+    height: 100%;
+    margin-top: 75px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news__card {
+    width: 370px;
+    height: auto;
+
+    margin: 8px 0;
+}
+
+.news__img-block {
+    width: 100%;
+    height: 253px;
+    padding: 12px;
+
+    position: relative;
+}
+
+.news__img-block::before {
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-left: 1px solid #02E502;
+    border-bottom: 1px solid #02E502;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.news__img-block::after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-top: 1px solid #02E502;
+    border-right: 1px solid #02E502;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.news__img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.news__title-block {
+    width: 100%;
+    height: 100%;
+}
+
+.news__title {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.news__subtitle {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+.news__link {
+    padding-bottom: 8px;
+    font-size: 18px;
+    color: #02E502;
+    text-decoration: none;
+    transition: 0.2s ease;
+
+    position: relative;
+}
+
+.news__link::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #02E502;
+    transition: 0.2s;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.news__link:hover::after {
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+/*--------------------- NEWS SECTION END---------------------*/
+
+/*--------------------- FOOTER SECTION---------------------*/
+footer {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    color: #fff;
+    background-color: #1E1D1D;
+}
+
+.footer__row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.footer__card{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.footer__img-block{
+    width: 72px;
+    height: 69px;
+    margin-right: 15px;
+}
+
+.footer__img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer__phone-block{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.footer__icon{
+    margin-right: 10px;
+}
+
+.footer-label{
+    height: 25px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+/*--------------------- FOOTER SECTION END---------------------*/
