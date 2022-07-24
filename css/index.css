@@ -118,17 +118,81 @@ header {
     border: solid green;
 }
 
-/*--------------------- HEADER MENU LINE ---------------------*/
-.header__card-line {
-    width: 100%;
-    height: 28px;
-    margin: 0 2px;
-    padding: 0.5px;
-    background-color: #fff;
-    border-radius: 5px;
+/*--------------------- MOBILE MENU ---------------------*/
+.header__card-right-item {
+    position: relative;
 }
 
-/*--------------------- HEADER MENU LINE END---------------------*/
+.mob__menu {
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 25px;
+    color: #fff;
+    background-color: #1E1D1D;
+    display: none;
+
+    position: absolute;
+    top: 55px;
+    right: 0;
+}
+
+.mob__list {
+    padding: 0;
+}
+
+.mob__social-menu {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 25px 0 0 0;
+    background-color: #1e1d1d;
+    border-top: 1px solid #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mob__item,
+.mob__social-item {
+    list-style: none;
+}
+
+.mob__item {
+    width: 100%;
+    margin: 10px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mob__img-block {
+    width: 50px;
+    height: 50px;
+    margin-left: -50px;
+    margin-right: 15px;
+    padding: 12px;
+    background-color: #1E1D1D;
+    object-fit: cover;
+    border: 2px solid #fff;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mob__link {
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+/*--------------------- MOBILE MENU END---------------------*/
+
 /*--------------------- HEADER SECTION END---------------------*/
 
 /*--------------------- MAIN SECTION---------------------*/
@@ -630,44 +694,45 @@ footer {
     padding: 25px;
     color: #fff;
     background-color: #1E1D1D;
+    border-top: 1px solid #02E502;
 }
 
-.footer__row{
+.footer__row {
     width: 100%;
     height: 100%;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
 }
 
-.footer__card{
+.footer__card {
     display: flex;
     align-items: center;
     justify-content: baseline;
 }
 
-.footer__img-block{
+.footer__img-block {
     width: 72px;
     height: 69px;
     margin-right: 15px;
 }
 
-.footer__img{
+.footer__img {
     width: 100%;
     height: 100%;
 }
 
-.footer__phone-block{
+.footer__phone-block {
     display: flex;
     align-items: center;
     justify-content: baseline;
 }
 
-.footer__icon{
+.footer__icon {
     margin-right: 10px;
 }
 
-.footer-label{
+.footer-label {
     height: 25px;
     margin: 0;
     font-size: 18px;
