@@ -42,5 +42,12 @@
     align-items: center;
     justify-content: center;
 }
+
+.general__btn:hover{
+    color: #000;
+    background-color: #02E502;
+    border: 1px solid #000;
+    transition: 0.2s ease-in;
+}
 /*-------------------STYLE FOR GENERAL BUTTON END-------------------*/
 
