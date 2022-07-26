@@ -43,11 +43,39 @@
     justify-content: center;
 }
 
-.general__btn:hover{
+.general__btn:hover {
     color: #000;
     background-color: #02E502;
     border: 1px solid #000;
     transition: 0.2s ease-in;
 }
+
 /*-------------------STYLE FOR GENERAL BUTTON END-------------------*/
 
+
+/*-------------------STYLE FOR GENERAL CRUMBS -------------------*/
+.general__links-crumbs {
+    width: 100%;
+    height: 100%;
+    padding: 12px 0;
+    margin-bottom: 50px;
+}
+
+.general__slash {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.general__link-crumb {
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.general__link-crumb:last-child {
+    color: #02E502;
+}
+
+/*-------------------STYLE FOR GENERAL CRUMBS END-------------------*/

@@ -224,7 +224,7 @@ header {
 
 .main__title {
     margin: 0;
-    font-size: 72px;
+    font-size: calc(24px + 3vw);
     line-height: 82px;
 }
 
@@ -336,7 +336,7 @@ header {
 }
 
 .production__header-img {
-    width: 330px;
+    max-width: 330px;
     height: 230px;
     margin: 0 auto;
 }
@@ -411,7 +411,7 @@ header {
 }
 
 .services__title {
-    font-size: 42px;
+    font-size: calc(18px + 2vw);
     line-height: 48px;
 }
 

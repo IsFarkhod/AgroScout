@@ -1,0 +1,230 @@
+@media only screen and (max-width: 1135px) {
+    .container {
+        max-width: 1050px;
+        margin: 0 auto;
+    }
+
+    .main__card-title {
+        margin: 15px 0;
+        font-size: 35px;
+        line-height: 25px;
+    }
+
+    .main__card-subtitle {
+        font-size: 20px;
+    }
+
+    .advantage__row {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .production__card {
+        max-width: 330px;
+        max-height: 615px;
+    }
+
+    .about_company__row,
+    .location__row,
+    .partners__row,
+    .news__row {
+        margin-top: 45px;
+    }
+
+    .news__row {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .news__card {
+        width: 350px;
+        min-height: 581px;
+        padding: 8px;
+    }
+
+    .news__title {
+        font-size: 18px;
+    }
+
+    .news__subtitle {
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 985px) {
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .header__logo,
+    .header__social-link,
+    .header__card-right-icon,
+    .burger {
+        width: 45px;
+        height: 45px;
+    }
+
+    .header__card-right-item {
+        margin: 0 7px;
+    }
+
+
+    .services__content {
+        padding-left: 15px;
+        clip-path: polygon(100% 0, 90% 0.2%, 50% 100%, 0 100%, 0 0);
+    }
+
+    .services__subtitle {
+        margin-right: 300px
+    }
+
+    .about_company__subtitle {
+        font-size: 18px;
+    }
+
+    .location__row {
+        display: block;
+    }
+
+    .location__menu {
+        justify-content: space-around;
+    }
+
+    .partners__row {
+        flex-wrap: wrap;
+    }
+
+    .partners__card {
+        width: 100%;
+        height: 100%;
+        margin: 16px 0;
+    }
+
+    .partners__img-block {
+        margin: 0 auto;
+    }
+
+    .footer__row {
+        justify-content: center;
+    }
+
+    .footer__card {
+        padding: 0 8px;
+    }
+
+    .footer__img-block {
+        width: 45px;
+        height: 45px;
+        margin-right: 8px;
+    }
+
+    .footer__icon {
+        margin-right: 8px;
+    }
+
+    .footer__phone,
+    .footer__label {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .header__phone-block,
+    .header__number {
+        display: none;
+    }
+
+    .main__card-title {
+        font-size: 25px;
+    }
+
+    /*.services__title {
+        font-size: 18px;
+    }*/
+
+    .services__subtitle {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .container {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .main__title {
+        font-size: 30px;
+    }
+
+    .services {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+    .services__content {
+        width: 100%;
+        height: 350px;
+        text-align: center;
+        clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 0);
+    }
+
+    .services__title,
+    .services__subtitle {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .services__subtitle {
+        line-height: 35px;
+    }
+
+    .services__btn {
+        margin: 10px auto;
+    }
+
+    .location__item {
+        font-size: 20px;
+    }
+
+    .footer__row {
+        text-align: center;
+        display: block
+    }
+
+    .footer__card {
+        width: auto;
+        height: auto;
+        margin: 8px 0;
+        display: block;
+    }
+
+    .footer__img-block{
+        margin: 0 auto;
+    }
+
+    .footer__phone-block{
+        justify-content: center;
+    }
+
+    .footer__phone, .footer__label{
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+}
