@@ -49,12 +49,67 @@
     .news__subtitle {
         line-height: 25px;
     }
+
+    /*-------------- ENTOMOPHAGES PAGE --------------*/
+    .help__input {
+        margin-bottom: 12px;
+    }
+
+    .insect__card {
+        display: block;
+    }
+
+    .insect__img-block,
+    .insect__desc {
+        margin: 0 auto;
+    }
+
+    /* .work__card:nth-child(3) {
+        left: 0;
+    }*/
+
+
+    .work__card {
+        position: relative;
+    }
+
+    .work__img-block {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 985px) {
     .container {
         max-width: 900px;
         margin: 0 auto;
+    }
+
+    /*----------- ENTOMOPHAGES PAGE ----------*/
+
+    /*.work__card:nth-child(2) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: auto;
+    }*/
+
+    .help__img-block {
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .help__input {
+        margin-right: 25px;
+    }
+
+    .help__middle-block {
+        display: block;
+    }
+
+    .help__btn {
+        margin: 25px auto;
+        display: block;
     }
 }
 
@@ -134,6 +189,40 @@
     .footer__label {
         font-size: 14px;
     }
+
+    /*------------- ENTOMOPHAGES PAGE ------------*/
+
+    .insect__desc {
+        width: 100%;
+    }
+
+    /*------------- ENTOMOPHAGES PAGE END -------------*/
+
+    /*------------- NEWS PAGE -------------*/
+    .news_block__card-img-block {
+        width: 350px;
+        height: 175px;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .desc-block__title {
+        margin: 12px 0;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .desc-block__subtitle {
+        margin: 15px 0;
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    .desc-block__link {
+        font-size: 16px;
+    }
+
+    /*------------- NEWS PAGE END-------------*/
 }
 
 @media only screen and (max-width: 650px) {
@@ -158,6 +247,24 @@
     .services__subtitle {
         font-size: 20px;
     }
+
+    /*------------- NEWS PAGE -------------*/
+    .news_block__card {
+        width: 100%;
+        display: block;
+    }
+
+    .news_block__card-img-block {
+        height:280px;
+        margin: 0 auto;
+    }
+
+    .news_block__desc-block {
+        width: 100%;
+    }
+
+    /*------------- NEWS PAGE END-------------*/
+
 }
 
 @media only screen and (max-width: 550px) {
@@ -215,16 +322,18 @@
         display: block;
     }
 
-    .footer__img-block{
+    .footer__img-block {
         margin: 0 auto;
     }
 
-    .footer__phone-block{
+    .footer__phone-block {
         justify-content: center;
     }
 
-    .footer__phone, .footer__label{
+    .footer__phone,
+    .footer__label {
         font-size: 18px;
         margin-bottom: 8px;
     }
+
 }

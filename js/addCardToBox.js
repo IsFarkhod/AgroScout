@@ -1,4 +1,5 @@
 const productEl = document.querySelector('.production__row')
+const newsEl = document.querySelector('.news_block__row')
 const modalWindow = document.querySelector('.modal_window')
 const subtotal = document.querySelector('.subtotal')
 const numberIndex = document.querySelector('.number__index')
@@ -33,6 +34,7 @@ function renderProduct() {
         </div>`
     });
 }
+
 
 renderProduct()
 
