@@ -1,11 +1,11 @@
-const arrow = document.querySelector('.about_company__img')
-const show = document.querySelector('.about_company__show')
+const arrow = document.querySelector('.general__dropdown-img')
+const show = document.querySelector('.general__dropdown-show')
 
 
-console.log(arrow.addEventListener('click', function() {
-    if (show.classList.toggle("about_company--active")) {
-        arrow.classList.add("about_company--rotate")
+console.log(arrow.addEventListener('click', function () {
+    if (show.classList.toggle("general__dropdown--active")) {
+        arrow.classList.add("general__dropdown--rotate")
     } else {
-        arrow.classList.remove("about_company--rotate")
+        arrow.classList.remove("general__dropdown--rotate")
     }
 }))

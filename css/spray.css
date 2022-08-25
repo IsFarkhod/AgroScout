@@ -1,0 +1,85 @@
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.h-100 {
+    height: 150px;
+}
+
+.main_spray {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/sprayImg/sprayBackgroundImg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: inline-block;
+}
+
+.main_spray__row {
+    width: 100%;
+    height: 100%;
+    padding-right: 175px;
+}
+
+.main_spray__title-block {
+    width: 100%;
+    height: 100%;
+    margin-top: 270px;
+    color: #fff;
+}
+
+.main_spray__title {
+    margin: 0 0 50px 0;
+    font-size: calc(24px + 3vw);
+    line-height: 86.4px;
+}
+
+.main_spray__subtitle-block {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.main_spray__subtitle {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+/*------------- SERVICES SPRAY SECTION -------------*/
+.services_spray {
+    width: 100%;
+    height: 100%;
+    background-color: #181818F5
+}
+
+.services_spray__row {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    position: relative;
+}
+
+.services_spray__subtitle {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+/*------------- SERVICES SPRAY SECTION END -------------*/
+
+/*--------------- ADVANTAGES SPRAY SECTION ------------*/
+.advantages_spray{
+    width: 100%;
+    height: 100%;
+    background-color: #181818F5;
+}
+.advantages_spray__row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--------------- ADVANTAGES SPRAY SECTION END -------------------*/
