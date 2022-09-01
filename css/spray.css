@@ -78,6 +78,7 @@
 .advantages_spray__row {
     width: 100%;
     height: 100%;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -86,7 +87,9 @@
 .advantages_spray__card {
     width: 422px;
     height: auto;
+    padding: 35px;
     color: #fff;
+    background-color: #1E1D1D;
 }
 
 .advantages_spray__card-header {
@@ -150,13 +153,33 @@
     justify-content: flex-start;
 }
 
-.advantages_spray__card-item-img{
+.advantage_spray__card-item-img-block{
+    width: 15px;
+    height: 15px;
     margin-right: 15px;
 }
 
-.advantages_spray__card-item-title{
+.advantages_spray__card-item-img {
+    width: 100%;
+    height: 100%;
+    margin-right: 15px;
+}
+
+.advantages_spray__card-item-title {
     margin: 0;
     font-size: 18px;
     line-height: 31px;
 }
+
 /*--------------- ADVANTAGES SPRAY SECTION END -------------------*/
+
+/*--------------- DEFECT SPRAY SECTION -------------------*/
+.defect_spray{
+    background-color: #181818F5;
+    color: #fff;
+}
+.defect_spray__row{
+    width: 100%;
+    height: 100%;
+}
+/*--------------- DEFECT SPRAY SECTION END -------------------*/

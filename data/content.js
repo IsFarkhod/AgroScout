@@ -29,28 +29,4 @@ const content = [
         price: 18206.30
 
     }
-    //{   id: 4,
-    //    imgAlt: "test product",
-    //    title: "test product title",
-    //    brand: "test brand",
-    //    model: "test model",
-    //    instock: 2,
-    //    price: 18206.30
-    //},{
-    //    id: 5,
-    //    imgAlt: "test2 product",
-    //    title: "3 product title",
-    //    brand: "test3 brand",
-    //    model: "test3 model",
-    //    instock: 2,
-    //    price: 18206.30
-    //},{
-    //    id: 6,
-    //    imgAlt: "test3 product",
-    //    title: "test3 product title",
-    //    brand: "test3 brand",
-    //    model: "test3 model",
-    //    instock: 2,
-    //    price: 18206.30
-    //},
 ]
