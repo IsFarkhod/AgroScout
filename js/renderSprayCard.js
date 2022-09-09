@@ -1,4 +1,5 @@
 const sprayCardEl = document.querySelector(".advantages_spray__row")
+const defectSprayEl= document.querySelector(".defect_spray__row")
 
 function renderSprayCard() {
     sprayData.forEach(item => {
@@ -53,4 +54,13 @@ function renderSprayCard() {
     });
 }
 
+function renderDefectSprayCard() {
+    sprayData.forEach(index => {
+        defectSprayEl.innerHTML += `
+        
+        `
+    })
+}
+
+renderDefectSprayCard()
 renderSprayCard()
