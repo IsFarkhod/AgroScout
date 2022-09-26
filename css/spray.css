@@ -80,13 +80,14 @@
     height: 100%;
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
 .advantages_spray__card {
     width: 422px;
-    height: auto;
+    min-height: 550px;
+    margin: 0 15px;
     padding: 35px;
     color: #fff;
     background-color: #1E1D1D;
@@ -182,13 +183,89 @@
 .defect_spray__row {
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.defect_spray__card{
+    width: auto;
+    height: auto;
+    margin: 0 15px;
+    padding: 30px;
+    background-color: #1E1D1D;
 }
 
 .defect_spray__card-header {
     width: 100%;
     height: auto;
+    padding: 14px 0;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
+.defect_spray__card-header::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #02E502;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.defect_spray__card-title{
+    margin-left: 12px;
+}
+
+.defect_spray__card-menu{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.defect_spray__card-item{
+    margin: 8px 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.defect_spray__card-item-img-block{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+.defect_spray__card-img{
+    width: 100%;
+    height: 100%;
+}
 /*--------------- DEFECT SPRAY SECTION END -------------------*/
+
+/*--------------- HOW WORK SECTION -------------------*/
+.how_work{
+    width: 100%;
+    height: auto;
+    background-color: #181818F5;
+}
+
+.how_work__row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.how_work__card{
+    min-width: 400px;
+    height: 100%;
+    padding: 35px;
+    color: #fff;
+    background-color: #1E1D1D;
+}
+/*--------------- HOW WORK SECTION END -------------------*/
