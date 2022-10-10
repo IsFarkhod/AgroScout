@@ -51,6 +51,7 @@
 .services_spray {
     width: 100%;
     height: 100%;
+    padding-top: 125px;
     background-color: #181818F5
 }
 
@@ -72,6 +73,7 @@
 .advantages_spray {
     width: 100%;
     height: 100%;
+    padding-top: 125px;
     background-color: #181818F5;
 }
 
@@ -176,6 +178,9 @@
 
 /*--------------- DEFECT SPRAY SECTION -------------------*/
 .defect_spray {
+    width: 100%;
+    height: auto;
+    padding-top: 125px;
     background-color: #181818F5;
     color: #fff;
 }
@@ -250,6 +255,8 @@
 .how_work{
     width: 100%;
     height: auto;
+    padding-top: 125px;
+    padding-bottom: 125px;
     background-color: #181818F5;
 }
 
@@ -262,10 +269,48 @@
 }
 
 .how_work__card{
-    min-width: 400px;
-    height: 100%;
+    width: 502px;
+    height: 588px;
     padding: 35px;
     color: #fff;
     background-color: #1E1D1D;
+    overflow: hidden;
+}
+
+.how_work__img-block{
+    width: 340px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+.how_work__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.how_work__menu{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.how_work__title{
+    font-size: 24px;
+}
+
+.how_work__item{
+    width: 100%;
+    list-style:none;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+
+.how_work__menu-subtitle{
+    margin-left: 8px;
+    margin-bottom: 36px;
+    font-size: 18px;
 }
 /*--------------- HOW WORK SECTION END -------------------*/

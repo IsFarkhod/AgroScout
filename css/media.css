@@ -76,6 +76,70 @@
     .work__img-block {
         display: none;
     }
+
+    /*-------------- CARTOGRAPHY PAGE -----------------*/
+    main {
+        padding: 175px 25px;
+    }
+
+    .main__img-block {
+        display: none;
+    }
+
+    .main__subtitle {
+        font-size: 18px;
+    }
+
+    .cartography_adv {
+        padding: 175px 25px 0 25px;
+    }
+
+    .cartography_adv__row {
+        justify-content: center;
+    }
+
+    .process {
+        padding: 175px 25px 0 25px;
+    }
+
+    .process__row {
+        display: block;
+    }
+
+    .process__img-block {
+        margin: 0 auto;
+    }
+
+    .process__desc {
+        width: 100%;
+        margin: 22px auto 0 auto;
+    }
+
+    .process__desc-content {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .process__desc-content:last-child {
+        width: 600px;
+        margin: 0 auto;
+        left: 105px;
+    }
+
+    .desc__header-line-block {
+        justify-content: center;
+    }
+
+    .process__desc-list {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .help {
+        padding: 25px;
+    }
+
+    /*-------------- CARTOGRAPHY PAGE END-----------------*/
 }
 
 @media only screen and (max-width: 985px) {
@@ -255,7 +319,7 @@
     }
 
     .news_block__card-img-block {
-        height:280px;
+        height: 280px;
         margin: 0 auto;
     }
 
@@ -336,4 +400,42 @@
         margin-bottom: 8px;
     }
 
+    /*------------ CARTOGRAPHY PAGE -----------*/
+
+    .main__title{
+        line-height: 45px
+    }
+
+    .main__card{
+        width: 100%;
+    }
+
+    .main__list{
+        width: 100%;
+        display: block;
+    }
+
+    .main__item{
+        width: 100%;
+        margin-bottom: 12px;
+        justify-content: flex-start;
+    }
+
+    .process__row{
+        overflow: hidden;
+    }
+
+.process__img-block{
+    width: 100%;
+    object-fit: fill;
+}
+
+.process__desc-content:last-child{
+    left: 0;
+}
+
+.help__subtitle{
+    font-size: 18px;
+}
+    /*------------ CARTOGRAPHY PAGE END-----------*/
 }
