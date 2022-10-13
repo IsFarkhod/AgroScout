@@ -400,42 +400,68 @@
         margin-bottom: 8px;
     }
 
+
+
+    /*--------- ENTOMOPHAGES PAGE -----------*/
+
+    .work {
+        display: none;
+    }
+
+    /*--------- ENTOMOPHAGES PAGE END-----------*/
+
+    /*------------------- SPRAY PAGE --------------------*/
+    .advantages_spray__row, .defect_spray__row, .how_work__row {
+        display: block;
+    }
+    .advantages_spray__card, .defect_spray__card,.how_work__card{
+        margin-bottom: 25px;
+    }
+
+    .how_work__card{
+        width: auto;
+        padding: 15px;
+    }
+
+    /*------------------- SPRAY PAGE END--------------------*/
+
     /*------------ CARTOGRAPHY PAGE -----------*/
 
-    .main__title{
+    .main__title {
         line-height: 45px
     }
 
-    .main__card{
+    .main__card {
         width: 100%;
     }
 
-    .main__list{
+    .main__list {
         width: 100%;
         display: block;
     }
 
-    .main__item{
+    .main__item {
         width: 100%;
         margin-bottom: 12px;
         justify-content: flex-start;
     }
 
-    .process__row{
+    .process__row {
         overflow: hidden;
     }
 
-.process__img-block{
-    width: 100%;
-    object-fit: fill;
-}
+    .process__img-block {
+        width: 100%;
+        object-fit: fill;
+    }
 
-.process__desc-content:last-child{
-    left: 0;
-}
+    .process__desc-content:last-child {
+        left: 0;
+    }
 
-.help__subtitle{
-    font-size: 18px;
-}
+    .help__subtitle {
+        font-size: 18px;
+    }
+
     /*------------ CARTOGRAPHY PAGE END-----------*/
 }
