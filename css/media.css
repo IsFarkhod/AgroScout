@@ -175,6 +175,11 @@
         margin: 25px auto;
         display: block;
     }
+      /*--------------- CONTACTS PAGE -----------*/
+      .contacts__row{
+        display: block;
+    }
+     /*--------------- CONTACTS PAGE END-----------*/
 }
 
 @media only screen and (max-width: 780px) {
@@ -194,7 +199,6 @@
     .header__card-right-item {
         margin: 0 7px;
     }
-
 
     .services__content {
         padding-left: 15px;
@@ -287,6 +291,26 @@
     }
 
     /*------------- NEWS PAGE END-------------*/
+
+    /*-------------- ABOUTUS PAGE -----------------*/
+    .about-us__command-row {
+        display: block; 
+        flex-wrap: wrap;
+    }
+    .about-us__command-card{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /*-------------- ABOUTUS PAGE END-----------------*/
+
+    /*--------------- CONTACTS PAGE -----------*/
+    .contacts__row{
+        display: block;
+    }
+     /*--------------- CONTACTS PAGE END-----------*/
 }
 
 @media only screen and (max-width: 650px) {
@@ -411,14 +435,19 @@
     /*--------- ENTOMOPHAGES PAGE END-----------*/
 
     /*------------------- SPRAY PAGE --------------------*/
-    .advantages_spray__row, .defect_spray__row, .how_work__row {
+    .advantages_spray__row,
+    .defect_spray__row,
+    .how_work__row {
         display: block;
     }
-    .advantages_spray__card, .defect_spray__card,.how_work__card{
+
+    .advantages_spray__card,
+    .defect_spray__card,
+    .how_work__card {
         margin-bottom: 25px;
     }
 
-    .how_work__card{
+    .how_work__card {
         width: auto;
         padding: 15px;
     }

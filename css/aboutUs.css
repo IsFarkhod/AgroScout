@@ -1,0 +1,211 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------- MAIN SECTION -----------------*/
+
+.about-us__main {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../assets/aboutus/bgBackground.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us-main__row {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.about-us-main__content {
+    width: 100%;
+    height: 100%;
+    padding: 135px 270px 0 0;
+    color: #fff;
+}
+
+.about-us-main__title {
+    font-size: 72px;
+    line-height: 95px;
+}
+
+.about-us-main__subtitle {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.about-us-main__list {
+    width: 100%;
+    height: 100%;
+    margin: 25px 0 0 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us-main__item {
+    list-style: none;
+}
+
+.about-us-main__item-title {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.about-us-main__item-subtitle {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+/*---------------- MAIN SECTION END-----------------*/
+
+/*---------------- SCRUMBS SECTION -----------------*/
+.about-us__crumbs {
+    width: 100%;
+    min-height: 100%;
+    padding: 75px 0;
+    background-color: #212121;
+}
+
+.about-us__crumbs-row {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: #fff;
+}
+
+/*---------------- SCRUMBS SECTION END-----------------*/
+
+/*---------------- COMMAND SECTION-----------------*/
+.about-us__command {
+    width: 100%;
+    min-height: 750px;
+    padding-bottom: 75px;
+    background-color: #212121;
+    overflow: hidden;
+}
+
+.about-us__command-row {
+    width: 100%;
+    height: 100%;
+    /*display: flex;
+    align-items: center;
+    justify-content: space-between;*/
+}
+
+.about-us__command-card {
+    width: 550px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 8px;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+
+.command__img-block {
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 18px;
+    display: block;
+    position: relative;
+}
+
+.command__img-block::before {
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-bottom: 1px solid #01B601;
+    border-left: 1px solid #01B601;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.command__img-block::after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-top: 1px solid #01B601;
+    border-right: 1px solid #01B601;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.command__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.command__content {
+    width: 100%;
+    height: 100%;
+}
+
+.command__title {
+    font-size: calc(24px + 1vw);
+    line-height: 34px;
+}
+
+.command__subtitle {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+/*---------------- COMMAND SECTION END-----------------*/
+
+/*--------------- CAROUSEL -------------*/
+
+.carousel-block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+
+/*
+.carousel-row {
+    display: none;
+}*/
+
+.carousel-list {
+    width: 100%;
+    height: 100%;
+    margin: 25px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-btn--1,
+.carousel-btn--2,
+.carousel-btn--3 {
+    width: 12px;
+    height: 12px;
+    margin: 0 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #464646;
+}
+
+.active {
+    background: #fff;
+}
+
+/*-------------- CAROUSEL END --------------*/
